@@ -9,7 +9,7 @@ def multiply(a, b):
    return a * b
 
 def divide(a, b):
-return a / b
+   return a / b
 print("Select an operation.")
 print("+")
 print("-")
