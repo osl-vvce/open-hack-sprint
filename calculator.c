@@ -14,7 +14,7 @@ float modulus(int n1, int n2);
 int main()
 {
     char op;
-    float num1, num2, result=0.0f,diff;
+    float num1, num2, result=0.0f,diff=0;
     int n1,n2;
 
     /* Print welcome message */
@@ -55,7 +55,7 @@ int main()
     }
 
     /* Print the result */
-    printf("%.2f %c %.2f = %.2f", num1, op, num2, result);
+    printf("%.2f %c %.2f = %.2f", num1, op, num2, result+diff);
 
     return 0;
 }
