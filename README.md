@@ -35,7 +35,7 @@
 
 
 ### After making your 1st PR, you are all set to explore the ocean of Open Source!!
-### So here are the resource to start with.
+### So here are the resource to start with.  
 
     https://github.com/mungell/awesome-for-beginners
     https://goodfirstissues.com/
