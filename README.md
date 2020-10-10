@@ -28,7 +28,7 @@
 
 
 
-### 4. Intermediate(Into a domain):
+### 4. Intermediate(Working in a domain):
     
        -Write a code of your choice in any language and make a pull request.
 
