@@ -14,13 +14,13 @@ float modulus(int n1, int n2);
 int main()
 {
     char op;
-    float num1, num2, result=0.0f;
+    float num1, num2, result=0.0f,diff;
     int n1,n2;
 
     /* Print welcome message */
     printf("WELCOME TO SIMPLE CALCULATOR\n");
     printf("----------------------------\n");
-    printf("Enter [number 1] [+ - * /] [number 2]\n");
+    printf("Enter [number 1] [+ - * / %] [number 2]\n");
 
     /* Input two number and operator from user */
     
@@ -45,6 +45,7 @@ int main()
             break;
         case '%':
             n1=(int)num1;
+            diff=num1-n1
             n2=(int)num2;
             result = modulus(num1, num2);
             break;
