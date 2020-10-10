@@ -8,13 +8,14 @@ float add(float num1, float num2);
 float sub(float num1, float num2);
 float mult(float num1, float num2);
 float div(float num1, float num2);
-float modulus(float num1, float num2);
+float modulus(int n1, int n2);
 
 
 int main()
 {
     char op;
     float num1, num2, result=0.0f;
+    int n1,n2;
 
     /* Print welcome message */
     printf("WELCOME TO SIMPLE CALCULATOR\n");
@@ -43,9 +44,9 @@ int main()
             result = div(num1, num2);
             break;
         case '%':
-            num1=(int)num1;
-            num2=(int)num2;
-            result = mod(num1, num2);
+            n1=(int)num1;
+            n2=(int)num2;
+            result = modulus(num1, num2);
             break;
 
         default: 
@@ -91,7 +92,7 @@ float div(float num1, float num2)
     return num1 / num2;
 }
 
-float mod(int num1, int num2)
+float modulus(int n1, int n2)
 {
-    return num1%num2;
+    return n1%n2;
 }
